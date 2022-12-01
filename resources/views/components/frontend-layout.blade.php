@@ -47,6 +47,14 @@
             /* height:50px; */
             margin-top:50px !important;
         } 
+
+        .header-area.header-3-area .navigation .navbar .navbar-toggler{
+            border:none !important;
+        }
+
+        .navbar-brand a img {
+            padding:10px !important;
+        }
         
     </style>
    
