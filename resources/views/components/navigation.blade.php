@@ -29,7 +29,7 @@
                     </ul> <!-- sub menu --> --}}
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
         </div> <!-- navbar collapse -->
@@ -37,18 +37,6 @@
             <a class="main-btn" href="#">GET IN TOUCH</a>
            
         </div>
-        <div class="navbar-social mr-10 ml-20"> 
-            
-                 <select name="" id="" class="custom-select">
-                    <option value="" disabled>Language</option>
-                    <option value="">English</option>
-                    <option value="">Swedish</option>
-                 </select>
-           
-            {{-- <a class="" href="#"> <x-flag-1x1-se/> SE</a> 
-            <a class="" href="#"> <x-flag-1x1-us/> EN</a> --}}
-            {{-- <a class="" href="#">FR</a>
-            <a class="" href="#">EN</a> --}}
-        </div>
+       <x-language-switcher />
     </nav>
 </div> <!-- navigation -->
