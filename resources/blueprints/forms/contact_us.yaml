@@ -1,0 +1,20 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: first_name
+        field:
+          placeholder: 'First Name'
+          input_type: text
+          antlers: false
+          display: 'First Name'
+          type: text
+          icon: text
+          instructions: 'How should we call you?'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          validate:
+            - required
